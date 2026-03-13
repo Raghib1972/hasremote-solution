@@ -255,7 +255,7 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X, ChevronDown } from 'lucide-react'
-
+import logo from '../assets/images/hasremote-logo.png'
 const navItems = [
   { label: 'Home', to: '/' },
 
@@ -384,7 +384,7 @@ export default function Navbar() {
   return (
     <>
       {/* TOP HEADER */}
-      <div className="bg-primary-dark text-white text-xs py-2 hidden md:block">
+      <div className="bg-primary-dark text-white text-xs py-2">
         <div className="container mx-auto px-4 flex justify-end items-center gap-4">
           <Link to="/seo-results" className="hover:text-accent">CLIENTS RESULT</Link>
           <Link to="/careers" className="hover:text-accent">CAREERS</Link>
@@ -399,7 +399,7 @@ export default function Navbar() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
 
-            {/* LOGO */}
+            {/* LOGO
             <Link to="/" className="flex items-center gap-2">
               <div className="bg-accent rounded-md px-3 py-1.5">
                 <span className="text-white font-extrabold text-lg tracking-tight">HRS</span>
@@ -408,7 +408,16 @@ export default function Navbar() {
                 <div className="text-white font-bold text-sm leading-none">Has Remote</div>
                 <div className="text-accent text-xs font-medium">Solution Pvt. Ltd.</div>
               </div>
-            </Link>
+            </Link> */}
+
+            {/* LOGO */}
+<Link to="/" className="flex items-center">
+  <img
+    src={logo}
+    alt="Has Remote Solution"
+    className="h-12 w-auto"
+  />
+</Link>
 
             {/* DESKTOP MENU */}
             <div className="hidden lg:flex items-center">
