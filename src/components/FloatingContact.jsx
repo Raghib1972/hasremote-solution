@@ -24,7 +24,7 @@ const PHONE_NUMBER  = "+916378400775";
 const WHATSAPP_NUMBER = "916378400775";
 
 // ── EmailJS credentials (replace with your own from emailjs.com) ──
-const EMAILJS_SERVICE_ID  = "service_dizt2yh";
+const EMAILJS_SERVICE_ID  = "service_i8palok";
 const EMAILJS_TEMPLATE_ID = "template_hqwrwt3";
 const EMAILJS_PUBLIC_KEY  = "FaPxIV_OmNx3qpQ5G";
 // ─────────────────────────────────────────────────────────
