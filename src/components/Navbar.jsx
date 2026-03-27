@@ -9,7 +9,7 @@ const navItems = [
     label: 'Products',
     children: [
       { label: 'Texora AI', to: 'https://texora.ai/' },
-      { label: 'ILM ORA (LMS)', to: 'https://ilm-ora.texora.ai//' },
+      { label: 'ILM ORA (LMS)', to: 'https://ilm.ora.texora.ai//' },
       { label: 'TaskOrbit', to: 'https://task-orbit.texora.ai/' },
       { label: 'Job Portal', to: 'https://texora.ai/job-portal' },
     ],
