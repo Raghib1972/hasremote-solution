@@ -9,9 +9,24 @@ const navItems = [
     label: 'Products',
     children: [
       { label: 'Texora AI', to: 'https://texora.ai/' },
-      { label: 'ILM ORA (LMS)', to: 'https://ilm.ora.texora.ai//' },
+      { label: 'ILM ORA (LMS)', to: 'https://ilm.ora.texora.ai/' },
       { label: 'TaskOrbit', to: 'https://task-orbit.texora.ai/' },
       { label: 'Job Portal', to: 'https://texora.ai/job-portal' },
+      { 
+        label: 'Tora CX', 
+        description: 'Customer experience platform',
+        to: 'https://texora.ai/tora-cx' 
+      },
+      { 
+        label: 'Unified CRM', 
+        description: 'AI-driven CRM for sales',
+        to: 'https://unified-crm.texora.ai/' 
+      },
+      { 
+        label: 'Innovora AI', 
+        description: 'AI-powered innovation suite',
+        to: 'https://texora.ai/innovora-ai' 
+      },
     ],
   },
   {
